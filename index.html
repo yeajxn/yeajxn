@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello!</title>
+    <link rel="stylesheet" href="static/output.css">
+    <link rel="stylesheet" href="static/reactions.css">
+    <script src="static/button.js"></script>
+  </head>
+  <body>
+    <div class="container mx-auto py-4">
+        <div class="justify-center flex">
+            <h1 class="text-7xl justify-center">Hello!</h1>
+        </div>
+    </div>
+    <div class="container mx-auto py-4">
+        <div class="justify-center flex h-10">
+            <p class="text-xl h-full">Do you <img class="inline-block size-20" src="images/Emoji Pictures.jfif"> want to be my valentine?</p>
+        </div>
+    </div>
+    <div class="container mx-auto py-5 my-3">
+        <div class="grid grid-cols-4 gap-4">
+            <div></div>
+            <div class="flex justify-end">
+                <a href="yes.html">
+                    <button class="bg-green-500 hover:bg-green-700 text-white py-2 px-7 rounded-full" id="yesBtn">Yes</button>
+                </a>
+            </div>
+            <div class="flex justify-start">
+                <button class="bg-red-500 hover:bg-red-700 text-white py-2 px-7 rounded-full max-h-10" id="noBtn" onclick="noClick()">No</button>
+            </div>
+            <div></div>
+        </div>
+    </div>
+    <div class="container mx-auto py-4">
+        <div class="justify-center flex h-30">
+            <img class="h-2/5" id="img1" class="reaction" style="display:none;" src="images/huh-cat.gif">
+            <img class="h-2/5" id="img2" class="reaction" style="display:none;" src="images/grumpy-cat-cat-meme.gif">
+            <img class="h-2/5" id="img3" class="reaction" style="display:none;" src="images/angry-2.gif">
+            <img class="h-2/5" id="img4" class="reaction" style="display:none;" src="images/upset.gif">
+            <img class="h-2/5" id="img5" class="reaction" style="display:none;" src="images/cry-crying.gif">
+        </div>
+    </div>
+  </body>
+</html>
